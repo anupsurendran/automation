@@ -82,18 +82,18 @@ MASTERQA_MAX_IDLE_TIME_BEFORE_QUIT = 600
 
 # MySQL DB Credentials
 # (For saving data from tests)
-DB_HOST = "127.0.0.1"
+DB_HOST = "booboo"
 DB_USERNAME = "root"
-DB_PASSWORD = "test"
+DB_PASSWORD = "lalala"
 DB_SCHEMA = "test"
 
 
 # Amazon S3 Bucket Credentials
 # (For saving screenshots and other log files from tests)
-S3_LOG_BUCKET = "[S3 BUCKET NAME]"
-S3_BUCKET_URL = "https://[S3 BUCKET NAME].s3.amazonaws.com/"
-S3_SELENIUM_ACCESS_KEY = "[S3 ACCESS KEY]"
-S3_SELENIUM_SECRET_KEY = "[S3 SECRET KEY]"
+S3_LOG_BUCKET = "automatedtests"
+S3_BUCKET_URL = "http://automatedtests.s3.amazonaws.com/"
+S3_SELENIUM_ACCESS_KEY = "AKIAJFOPCIVLRJUTPGQQ"
+S3_SELENIUM_SECRET_KEY = "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"
 
 
 # #####>>>>>----- OPTIONAL SETTINGS -----<<<<<#####
